@@ -7,7 +7,7 @@ const localeCompareParams = [
  * sortStrings - sorts array of string by two criteria "asc" or "desc"
  * @param {string[]} array - the array of strings
  * @param {string} [order="asc"] param - the sorting type "asc" or "desc"
- * @returns {string[]}
+ * @returns {(string[]|null)}
  */
 export function sortStrings(array, order = 'asc') {
   let multiplier;
